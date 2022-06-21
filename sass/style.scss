@@ -42,8 +42,11 @@ Text Domain: 31-w
 
 --------------------------------------------------------------*/
 
-// Import variables and mixins.
-@import "abstracts/abstracts";
+/* Variable
+--------------------------------------------- */
+@import "variable/typography";
+@import "variable/dimension";
+@import "variable/colors";
 
 /*--------------------------------------------------------------
 # Generic
