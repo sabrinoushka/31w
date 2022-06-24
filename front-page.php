@@ -18,5 +18,5 @@ if (have_posts()):
 
     <?php endwhile; ?>
 <?php endif; ?>    
-
+</section>
 <?php get_footer(); ?>

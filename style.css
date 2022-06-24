@@ -385,11 +385,11 @@ body {
 *
 */
 h1, h2 {
-  color: #ff4dff;
+  color: #b638b6;
 }
 
 h3, h4, h5, h6, p {
-  color: #b300b3;
+  color: #411441;
 }
 
 h1 {
@@ -580,8 +580,16 @@ textarea {
   grid-template-areas: "header header" "sidebar main" "footer footer";
 }
 
+.site__header,
+.site__sidebar,
+.site__main,
+.site__footer {
+  padding: 1vh 3vw;
+}
+
 .site__header {
   grid-area: header;
+  background-color: #5656c5;
 }
 
 .site__main {
@@ -589,14 +597,17 @@ textarea {
   overflow: hidden;
   /* Resolves issue with <pre> elements forcing full width. */
   background-color: rgb(179, 179, 205);
+  background-color: #a2a2df;
 }
 
 .site__sidebar {
   grid-area: sidebar;
   background-color: rgb(140, 140, 222);
+  background-color: #7c7cd2;
 }
 
 .site__footer {
   grid-area: footer;
   background-color: rgb(19, 15, 31);
+  background-color: #5656c5;
 }/*# sourceMappingURL=style.css.map */
