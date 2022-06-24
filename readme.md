@@ -2,7 +2,7 @@
 ## Premier thème et plugin  Wordpress
 ### Contient 20 commits
 
-[github-page](https://sabrinoushka.github.io//31w) 
+[github-page](https://sabrinoushka.github.io/31w) 
 > Le thème contient 5 fichiers:
 index.php
 style.css
