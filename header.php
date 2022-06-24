@@ -1,7 +1,7 @@
 <?php
  /**
   * Template header
-  * Ve template est intégré dans tous les modèles de thème
+  * Ce template est intégré dans tous les modèles de thème
   * @link : https://developer.wordpress.org/themes/
   * @package : 31w
   */
