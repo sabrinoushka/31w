@@ -11,12 +11,4 @@ function mon_31w_setup() {
 } 
 add_action( 'after_setup_theme', 'mon_31w_setup' );
 
-/* function mon_31w_enqueue() {
-	
-	wp_enqueue_style('31w-google-font',
-	 "https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap", 
-	false);
-		
-} */
-add_action( 'wp_enqueue_scripts', 'mon_31w_enqueue' );
 ?>
